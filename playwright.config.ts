@@ -38,9 +38,9 @@ export default defineConfig({
       name: 'chromium',
       use: { 
         browserName: 'chromium',
-        baseURL: 'https://playwright.dev',
+        baseURL: 'https://giantrocketship.com',
         headless: true,
-        viewport: { width: 1920, height: 1080 },
+        viewport: { width: 2560, height: 1440 },
         ignoreHTTPSErrors: true,
         acceptDownloads: true,
         screenshot: 'only-on-failure',
@@ -56,7 +56,7 @@ export default defineConfig({
       name: 'firefox',
       use: { 
         browserName: 'firefox',
-        baseURL: 'https://playwright.dev',
+        baseURL: 'https://giantrocketship.com',
         headless: true,
         viewport: { width: 1920, height: 1080 },
         ignoreHTTPSErrors: true,
@@ -70,7 +70,7 @@ export default defineConfig({
       name: 'webkit',
       use: { 
         browserName: 'webkit',
-        baseURL: 'https://playwright.dev',
+        baseURL: 'https://giantrocketship.com',
         headless: true,
         viewport: { width: 1920, height: 1080 },
         ignoreHTTPSErrors: true,
@@ -85,7 +85,7 @@ export default defineConfig({
       use: {
         browserName: 'chromium', 
         channel: 'msedge', 
-        baseURL: 'https://playwright.dev',
+        baseURL: 'https://giantrocketship.com',
         headless: true,
         viewport: { width: 1920, height: 1080 },
         ignoreHTTPSErrors: true,
